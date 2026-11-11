@@ -102,7 +102,7 @@ Write-Host "Hoan thanh!"
 | STT | Tab DevTools phát hiện lỗi | Tên file hoặc thông báo lỗi | Cách khắc phục |
 | --- | --- | --- | --- |
 | 1 | Console | Failed to load resource: net::ERR_FILE_NOT_FOUND | mở web/index.html bằng VS code, tại dòng 10 src="images/logo-sound.png" đổi thành src="images/logo-soundlab.png" lưu lại và sau đó F5 reload lại trang |
-| 2 |  |  |  |
+| 2 | Console | app.js:18 Uncaught ReferenceError: hienThiGoiThuAm is not defined | vào app.js trên VS code sửa dòng số 18 thành hienThiGoiThu(); |
 
 > Ảnh chụp màn hình lưu trong thư mục `evidence/` (network.png, console.png).
 
